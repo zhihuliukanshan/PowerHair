@@ -1,0 +1,33 @@
+@import "../../../../style/project/base/appt.wxss";
+@import "../../skin/skin.wxss";
+@import "../../../../style/project/meet_index_base.wxss";
+
+page {
+	background-color: var(--projectColor)
+}
+
+.load-project {
+	color: #f2f2f2 !important;
+}
+
+.meet-list-box {
+	margin-top: -220rpx;
+}
+
+
+.meet-list-box .item-leftbig .leftbig-left {
+	width: 200rpx;
+	height: 250rpx;
+	margin-left: 25rpx;
+	margin-top: -45rpx;
+	border-radius: 10rpx !important;
+	overflow: hidden;
+}
+
+.meet-list-box {
+	padding-top: 50rpx;
+}
+
+.meet-list-box .item-leftbig {
+	margin-bottom: 70rpx;
+}
