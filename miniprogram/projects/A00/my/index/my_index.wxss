@@ -1,0 +1,26 @@
+@import "../../skin/skin.wxss";
+@import "../../../../style/project/my_index_base.wxss";
+
+page {
+	background-color: var(--projectColor);
+}
+
+.main .upside {
+	background-color: var(--projectColor);
+	height: 500rpx;
+	align-items: flex-end;
+	padding-bottom: 150rpx;
+}
+
+.main .down {
+	margin-top: -100rpx;
+	z-index: 99999;
+}
+
+.main .down .today .title {
+	color: var(--projectCompareColor)
+}
+
+.main .upside .user-bar .detail .desc {
+	color: #fff;
+}

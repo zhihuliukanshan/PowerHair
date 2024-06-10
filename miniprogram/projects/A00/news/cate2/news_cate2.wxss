@@ -1,0 +1,13 @@
+@import "../../../../style/project/base/appt.wxss";
+@import "../../skin/skin.wxss"; 
+@import "../../../../style/project/news_index_base.wxss";  
+page{
+	background-color: var(--projectColor)
+}
+.load-project{
+	color:#f2f2f2!important;
+}
+
+.text-pic-list-box {
+	margin-top: -70rpx;
+}
